@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/LoginPage.css">
+    <title>Login Page</title>
+</head>
+<body>
+ 
+<div class="container" id="container">
+	
+	<div class="form-container sign-in-container">
+		<form action="AuthServlet">
+			<h1>Enter your Details </h1>
+            <br>
+			<input type="text" placeholder="Username" name="username"  >
+			<input type="password" placeholder="Password" name="password"  >
+			<button type="submit" >Login</button>
+			<a  id="signUp" href="ForgetPassword.html">Forgot your password?</a>
+		</form>
+		
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+ 
+			<div class="overlay-panel overlay-right">
+				<h1>New User ?</h1>
+				<p>Please Click Below to Sign-up and fill the details to continue your journey</p>
+				<a class="ghost" id="signUp" href = "RegistrationPage.html" >Sign-up</a>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+
+</body>
+</html>
